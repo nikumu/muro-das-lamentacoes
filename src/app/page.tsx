@@ -64,7 +64,7 @@ export default function Home() {
             type="text"
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            placeholder="Mensagem (max 20 characters)"
+            placeholder="Mensagem (máximo 20 caracteres)"
             maxLength={20}
             required
           />
