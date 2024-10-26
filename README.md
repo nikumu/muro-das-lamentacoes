@@ -4,15 +4,15 @@ Esse é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-
 
 ## Começando
 
-Primeiro, execute o servidor de desenvolvimento::
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
@@ -29,5 +29,4 @@ Para saber mais sobre Next.js, dê uma olhada nos seguintes recursos:
 - [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
 - [Learn Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
-Você pode conferir o [Next.js no GitHub](https://github.com/vercel/next.js) - seu feedback e contribuições são bem-vindos!
 
