@@ -21,6 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
       res.status(200).json(messages)
     } catch (error) {
+      console.error('Error creating message:', error)
       res.status(500).json({ error: 'Error creating message' })
     }
   } else if (req.method === 'GET') {
@@ -32,6 +33,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
       res.status(200).json(messages)
     } catch (error) {
+      console.error('Error fetching messages:', error)
       res.status(500).json({ error: 'Error fetching messages' })
     }
   } else {
